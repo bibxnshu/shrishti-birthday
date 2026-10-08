@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff8e9">
+  <meta name="description" content="Sunflowers, a few honest words, and warm birthday wishes for Shrishti.">
+  <title>Happy birthday, Shrishti · A little sunshine</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='27' font-size='28'%3E🌻%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/dedication-bouquet.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="assets/bouquet-layers.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="style.css?v=pulse-loop-31">
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="app.js?v=pulse-loop-31" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to your birthday page</a>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
+  <header class="site-header">
+    <a class="brand" href="#home"><span aria-hidden="true">✳</span> a little sunshine <small>for Shrishti</small></a>
+    <div class="header-controls">
+      <button id="sound-button" class="round-button" aria-haspopup="dialog" aria-controls="music-dialog" aria-label="Open music and volume controls"><span aria-hidden="true">♫</span><span class="control-label"> Music</span></button>
+      <button id="motion-button" class="round-button" aria-pressed="false" aria-label="Pause decorative motion"><span id="motion-icon" aria-hidden="true">Ⅱ</span><span class="control-label"> Motion</span></button>
+    </div>
+  </header>
+  <main id="main">
+    <section id="home" class="hero section">
+      <div class="hero-inner wide">
+        <div class="hero-copy">
+          <span class="pill">A little something for your birthday</span>
+          <h1>Happy birthday,<br><span>Shrishti.</span></h1>
+          <p class="hero-note">I hope today brings you a real smile, a quiet heart, and a little extra sunshine.</p>
+          <a href="#hello" class="primary" data-tap-spot>Tap to begin exploring</a>
+          <p class="small-note">Some flowers. A few honest words. Good wishes.</p>
+          <details class="explore-guide">
+            <summary>Where should I tap? <span aria-hidden="true">+</span></summary>
+            <div><p>Scroll at your own pace. Follow the pulsing golden rings to see where to touch. You can tap the nearby hints, too.</p><p>Tap <strong>Music</strong> at the bottom to pause a song or change its volume. The <strong>Ⅱ</strong> button at the top pauses the moving decorations.</p></div>
+          </details>
+        </div>
+        <figure class="bouquet-card">
+          <span class="postmark" aria-hidden="true">FOR YOU<br>WITH GOOD WISHES</span>
+          <div class="bouquet-halo" aria-hidden="true"></div>
+          <div class="bouquet-scene hero-bouquet" role="img" aria-label="Golden sunflowers blooming one by one in a bouquet of tiny white flowers and eucalyptus."><span class="bouquet-composition"><img class="bouquet-fallback" src="assets/dedication-bouquet.webp" width="1145" height="1374" alt="" fetchpriority="high"></span></div>
+          <figcaption>A little sunshine, wrapped up for you.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <div class="wish-ribbon" aria-hidden="true"><span>A kinder year</span><b>✳</b><span>Little joys</span><b>✳</b><span>New beginnings</span><b>✳</b><span>Peace of mind</span></div>
+    <section id="hello" class="section hello-section">
+      <div class="wide hello-grid">
+        <div class="section-heading left-heading reveal">
+          <span class="eyebrow">01 / First, a few words</span>
+          <h2>Things are different.<br><span>I still wish you well.</span></h2>
+          <p>I didn’t want your birthday to pass without wishing you something good.</p>
+          <div class="garden-postcard">
+            <img class="postcard-field" src="assets/storybook-meadow.webp" width="1536" height="1024" alt="A quiet garden with sunflowers and soft golden hills." loading="lazy">
+            <div class="garden-guide">
+              <div class="speech" id="hello-speech" aria-live="polite">A quiet little corner for your day.</div>
+              <button id="hello-guide" class="guide-touch" data-tap-spot aria-label="Say hello to the little garden guide" aria-describedby="hello-hint"><span class="actor peaceful" data-pose="peaceful" aria-hidden="true"><span class="leo"></span></span></button>
+            </div>
+          </div>
+          <button type="button" id="hello-hint" class="tap-hint tap-cue garden-hint" data-tap-target="#hello-guide">Tap his shoulder to say hello.</button>
+        </div>
+        <div class="message-thread reveal" aria-label="A birthday message from Bibanshu">
+          <div class="thread-label"><span class="initial">B</span><span>A few words from me</span></div>
+          <p class="message-bubble">Hey, Shrishti. Happy birthday.</p>
+          <p class="message-bubble">I know things between us didn’t turn out the way I thought they would.</p>
+          <p class="message-bubble">But you were a kind person in my life. What happened doesn’t erase that, or the good I saw in you.</p>
+          <p class="message-bubble warm">Thank you for being there for me when you were. I’m grateful for the warmth you brought into my life.</p>
+          <span class="thread-signature">I wanted you to know that.</span>
+        </div>
+      </div>
+    </section>
+    <section id="wishes" class="section wishes-section edge-garden">
+      <div class="wide">
+        <div class="section-heading reveal">
+          <span class="eyebrow">02 / A few things I hope for you</span>
+          <h2>A new year.<br><span>Good things ahead.</span></h2>
+          <p>Tap any folded note to read it.<br>Tap it again to fold it away.</p>
+        </div>
+        <div class="notes-grid">
+          <details class="wish-note reveal">
+            <summary data-tap-spot data-tap-repeat><span class="note-number">01</span><span class="note-title">A lighter heart</span><span class="note-action"><span class="note-action-label">Tap to unfold</span><b aria-hidden="true">+</b></span></summary>
+            <div class="note-inside"><p>I know how much heavy stuff you’ve had to carry. My biggest wish for you this year is that the weight finally starts to lift. I hope you find the grace and space to heal from everything you've been through, and that you have more evenings where you can just breathe easily.</p><span class="note-end">You deserve a little more peace.</span></div>
+          </details>
+          <details class="wish-note reveal">
+            <summary data-tap-spot data-tap-repeat><span class="note-number">02</span><span class="note-title">Safe people</span><span class="note-action"><span class="note-action-label">Tap to unfold</span><b aria-hidden="true">+</b></span></summary>
+            <div class="note-inside"><p>Even though circumstances pulled us apart, I still want the absolute best for you. I hope you are surrounded by people who make you feel completely secure being yourself. People who listen, who stay, and who offer the kind of gentle kindness that helps you heal.</p><span class="note-end">Care you never have to question.</span></div>
+          </details>
+          <details class="wish-note reveal">
+            <summary data-tap-spot data-tap-repeat><span class="note-number">03</span><span class="note-title">Finding your way</span><span class="note-action"><span class="note-action-label">Tap to unfold</span><b aria-hidden="true">+</b></span></summary>
+            <div class="note-inside"><p>I hope you give yourself permission to move forward at your own pace. May you find the confidence to try again, the room to forgive yourself, and the reassurance that your past doesn't define your future.</p><span class="note-end">There is so much beautiful life still ahead of you.</span></div>
+          </details>
+          <details class="wish-note reveal">
+            <summary data-tap-spot data-tap-repeat><span class="note-number">04</span><span class="note-title">Ordinary, lovely days</span><span class="note-action"><span class="note-action-label">Tap to unfold</span><b aria-hidden="true">+</b></span></summary>
+            <div class="note-inside"><p>I hope happiness finds you in the small, quiet moments. A sudden laugh that catches you off guard, a peaceful morning, or a really good slice of cake. I hope you remember how to enjoy the little things again.</p><span class="note-end">Happy Birthday.</span></div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <section id="sunshine" class="section sunshine-section edge-garden">
+      <div class="wide sunshine-grid">
+        <div class="section-heading left-heading reveal">
+          <span class="eyebrow">03 / A little pause</span>
+          <h2>A little sunflower.<br><span>A mind of its own.</span></h2>
+          <p id="sun-instruction">Could you help this little one turn toward the sun?</p>
+        </div>
+        <div class="sun-card reveal">
+          <div class="sun-position" aria-hidden="true"><span class="sun-symbol">☀</span><span class="sun-caption">the sun</span></div>
+          <div class="paired-stage sun-stage">
+            <div class="guide-column">
+              <p class="speech" id="sun-speech" aria-live="polite">That way, little flower. Toward the sun.</p>
+              <span id="sun-guide" class="actor" data-pose="curious" aria-hidden="true"><span class="leo"></span></span>
+            </div>
+            <button id="sunflower-button" class="flower-button" data-tap-spot data-tap-repeat aria-label="Turn the sunflower toward the glowing sun" aria-describedby="sun-hint"><span id="sunflower-plant" aria-hidden="true"><img class="flower-stem" src="assets/flower-stem.svg" alt="" loading="lazy"><span id="flower-head"><span class="flower-front"></span><img class="flower-back" src="assets/flower-back.svg" alt="" loading="lazy"></span></span></button>
+          </div>
+          <button type="button" class="tap-hint tap-cue" id="sun-hint" data-tap-target="#sunflower-button">Tap the sunflower and watch where it turns.</button>
+          <div id="sun-reveal" class="sun-reveal" hidden><p class="sun-reveal-note">Well… a sunflower always turns toward its sunshine.<br>Looks like this one has found you.</p><h3>For the warmth<br><em>you brought.</em></h3><p>You brought warmth into a chapter of my life, Shrishti. I hope the year ahead brings that same warmth back to you.</p></div>
+        </div>
+      </div>
+    </section>
+    <section id="letter-section" class="section letter-section edge-garden">
+      <div class="wide">
+        <div class="section-heading reveal">
+          <span class="eyebrow">04 / Something I wanted to say properly</span>
+          <h2>A note,<br><span>from me to you.</span></h2>
+          <p>There’s a letter inside. Read it whenever you feel like it.</p>
+        </div>
+        <div class="gift-stage paired-stage reveal">
+          <div class="guide-column">
+            <p class="speech" id="gift-speech" aria-live="polite">I’ve brought you a little birthday delivery.</p>
+            <span id="gift-guide" class="actor" data-pose="push" aria-hidden="true"><span class="leo"></span></span>
+          </div>
+          <div class="gift-column">
+            <button id="gift-button" class="gift-button" data-tap-spot aria-label="Untie the ribbon and open your gift" aria-describedby="gift-hint" aria-controls="personal-letter" aria-expanded="false"><span class="gift-art" aria-hidden="true"></span></button>
+            <button type="button" class="tap-hint tap-cue" id="gift-hint" data-tap-target="#gift-button">Tap the ribbon to open.</button>
+          </div>
+        </div>
+        <details id="personal-letter" class="personal-letter">
+          <summary id="letter-seal" data-tap-spot data-tap-repeat><span class="envelope-art" aria-hidden="true"></span><span><strong>For Shrishti</strong><span class="letter-open-label">Tap the sunflower seal to open my letter</span></span><b class="letter-plus" aria-hidden="true">+</b></summary>
+          <article class="letter-paper" aria-label="A personal letter from Bibanshu">
+            <span class="letter-date">On your birthday</span>
+            <h3>Dear Shrishti,</h3>
+            <p>Things didn’t unfold the way I ever wanted them to, but before I step out of your life for good, I want to leave things on a peaceful note.</p>
+            <p>How things ended between us and how you handled me at the end left a mark, but honestly, it doesn’t matter anymore. I am letting all of that go. I don't want to carry any bitterness forward, and I am choosing to walk away on respectful terms.</p>
+            <p>Thank you for the times you did listen, and for the kindness you once showed me. Those good moments still matter to me, even if the friendship is broken now.</p>
+            <div class="letter-divider" aria-hidden="true">✳</div>
+            <p>Because it is your birthday, my biggest wish for you is that you find the space and grace to heal from all your past traumas. I know you have carried a lot of heavy things. I hope you have a day today that just feels good to be in, that you eat something you love, and that you are surrounded by people who make you feel completely safe.</p>
+            <p>May God bless you with good health, peace of mind, and the strength to build the life you want.</p>
+            <p class="letter-last">Happy birthday, Shrishti.<br>I hope life is good to you.</p>
+            <p class="signature">Take care,<br><strong>Bibanshu</strong></p>
+          </article>
+        </details>
+      </div>
+    </section>
+    <section id="wish" class="section cake-section">
+      <div class="wide">
+        <div class="section-heading reveal">
+          <span class="eyebrow">05 / It is your birthday, after all</span>
+          <h2>Butterscotch cake.<br><span>One wish. All yours.</span></h2>
+          <p>Take a moment. Think of something you’d love this year.</p>
+        </div>
+        <div class="cake-stage paired-stage reveal">
+          <div class="guide-column">
+            <p class="speech" id="cake-speech" aria-live="polite">Ready when you are. Don’t tell me the wish!</p>
+            <span id="cake-guide" class="actor faces-cake" data-pose="wish" aria-hidden="true"><span class="leo"></span></span>
+          </div>
+          <div id="cake" class="cake-art" role="img" aria-label="A butterscotch birthday cake with one glowing candle"><img src="assets/butterscotch-cake.webp" width="1254" height="1254" alt="" loading="lazy"><span class="flame" aria-hidden="true"></span></div>
+        </div>
+        <div id="wish-controls" class="wish-controls reveal">
+          <button id="mic-button" class="primary" data-tap-spot data-tap-repeat aria-describedby="mic-status">Tap to start, then blow gently</button>
+          <button id="tap-candle" class="text-button">Or tap here to make your wish</button>
+          <p class="mic-note" id="mic-status" role="status">Allow the microphone, then blow gently.<br>Nothing is recorded or sent.</p>
+          <meter id="mic-level" min="0" max="1" value="0" aria-label="Microphone sound level" hidden></meter>
+          <button id="stop-mic" class="text-button" hidden>Stop microphone</button>
+        </div>
+        <div id="birthday-reveal" class="birthday-reveal" hidden tabindex="-1"><span class="eyebrow">Here’s to a good year</span><h2>Happy birthday,<br><span>Shrishti!</span></h2><p>May the wish you kept to yourself find its way into your life.</p><button id="relight" class="text-button">One more wish?</button></div>
+      </div>
+    </section>
+    <section id="goodbye" class="section goodbye-section edge-garden">
+      <div class="ending-card reveal">
+        <div class="bouquet-scene ending-bouquet" role="img" aria-label="Your birthday sunflowers blooming."><span class="bouquet-composition"><img class="bouquet-fallback" src="assets/dedication-bouquet.webp" width="1145" height="1374" alt="" loading="lazy"></span></div>
+        <span class="eyebrow">One last birthday wish</span>
+        <h2>Be happy.<br><span>Be well. Be yourself.</span></h2>
+        <div class="ending-wish">
+          <p>I hope the year ahead gives you plenty of days that feel good to wake up to. New places to see, things you’re excited to make, and little moments that turn into lovely memories.</p>
+          <p>May God bless you with good health, a peaceful heart, and people who are gentle with it. I hope your hard work takes you closer to the life you want, and that you give yourself credit for every step along the way.</p>
+          <p>Today, I hope you feel celebrated. Eat the cake, take the pictures, laugh freely, and let yourself enjoy your day.</p>
+          <p class="ending-last">Happy birthday, Shrishti.<br>Take good care of yourself.</p>
+        </div>
+        <span class="ending-signature">With good wishes,<br><strong>Bibanshu</strong></span>
+        <button id="save-card" class="secondary" data-tap-spot aria-describedby="keepsake-hint">Keep your birthday bouquet</button>
+        <p id="keepsake-hint" class="small-note keepsake-hint">Tap above to save the flowers and this birthday note.</p>
+        <p id="card-status" class="small-note" role="status"></p>
+      </div>
+      <footer class="site-footer"><a href="#home">Back to the sunflowers</a><span>A birthday wish for Shrishti.</span></footer>
+    </section>
+  </main>
+  <div id="butterflies" aria-hidden="true"></div><div id="particles" aria-hidden="true"></div>
+  <audio id="birthday-music" src="assets/music/indila-love-story-150s.mp3" preload="metadata" playsinline></audio>
+  <dialog id="intro-dialog" aria-labelledby="intro-title" aria-describedby="headphone-reminder">
+    <div class="intro-content">
+      <div class="bouquet-scene intro-bouquet" role="img" aria-label="A bouquet of sunflowers blooming for your birthday."><span class="bouquet-composition"><img class="bouquet-fallback" src="assets/dedication-bouquet.webp" width="1145" height="1374" alt=""></span></div>
+      <span class="eyebrow">A little birthday sunshine</span>
+      <h2 id="intro-title">This is for you,<br><span>Shrishti.</span></h2>
+      <div class="headphone-reminder" id="headphone-reminder">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg>
+        <p><strong>Before you begin…</strong><span>Put on your headphones or earphones<br>and let the music keep you company.</span></p>
+      </div>
+      <label class="volume-control" for="intro-volume"><span>Volume</span><input id="intro-volume" data-music-volume type="range" min="0" max="100" value="100" aria-label="Music volume"><output for="intro-volume" data-volume-value>100%</output></label>
+      <p class="intro-tap-guide">Scroll gently. Follow the pulsing rings to see where to tap.</p>
+      <button id="enter-button" class="primary" data-tap-spot autofocus>Tap to begin with music</button>
+      <button id="enter-quietly" class="text-button">Continue quietly</button>
+    </div>
+  </dialog>
+  <dialog id="music-dialog" aria-labelledby="music-title">
+    <button class="dialog-close" id="close-music" aria-label="Close music controls">×</button>
+    <span class="eyebrow">A little music for your day</span>
+    <h2 id="music-title">Let it play.</h2>
+    <div class="music-track"><span id="music-position">01 / 02</span><strong id="music-track-title">Love Story</strong><span id="music-track-version">Indila · 2:30</span></div>
+    <button id="music-toggle" class="primary">Play music</button>
+    <label class="volume-control" for="music-volume"><span>Volume</span><input id="music-volume" data-music-volume type="range" min="0" max="100" value="100" aria-label="Music volume"><output for="music-volume" data-volume-value>100%</output></label>
+    <p id="music-next" class="small-note">Up next: the Epic version. Both songs repeat.</p>
+    <p id="music-status" class="small-note" role="status"></p>
+  </dialog>
+  <dialog id="card-dialog" aria-labelledby="card-title"><button class="dialog-close" id="close-card" aria-label="Close birthday card">×</button><h2 id="card-title">Your little bouquet.</h2><img id="card-preview" alt="A sunflower birthday card for Shrishti, with warm wishes from Bibanshu." width="1200" height="1700"><a id="download-card" class="primary" download="Birthday-sunflowers-for-Shrishti.png">Save birthday card</a><p class="small-note">On your phone, you can also press and hold the picture to save it.</p></dialog>
+  <noscript><p class="noscript-note">Your birthday letter and folded wishes open when you tap them. Enable JavaScript for the candle, sound, and animated garden.</p></noscript>
+</body>
+</html>
